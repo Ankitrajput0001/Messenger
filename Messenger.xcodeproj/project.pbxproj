@@ -234,9 +234,9 @@
 			children = (
 				17C6DA952C3EEFAA0035AB4D /* ActiveNow */,
 				17C6DA8C2C3EAFED0035AB4D /* Authentication */,
+				17C6DA922C3ED16F0035AB4D /* Inbox */,
 				17C6DAAB2C3F9B5D0035AB4D /* Components */,
 				17C6DAA82C3F99C60035AB4D /* Chat */,
-				17C6DA922C3ED16F0035AB4D /* Inbox */,
 				17C6DA9A2C3EFD0A0035AB4D /* NewMessage */,
 				17C6DA9D2C3F02C00035AB4D /* Profile */,
 				17C6DA8A2C3EAFDF0035AB4D /* Root */,
@@ -320,8 +320,8 @@
 		17C6DAA02C3F02E80035AB4D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				17C6DAA22C3F05E10035AB4D /* SettingsOptionsViewModel.swift */,
 				17C6DAA42C3F0BE50035AB4D /* ProfileViewModel.swift */,
+				17C6DAA22C3F05E10035AB4D /* SettingsOptionsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";

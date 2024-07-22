@@ -43,11 +43,13 @@ struct InboxView: View {
             .onChange(of: selectedUser, perform: { newValue in
                 showChat = newValue != nil
             })
+            
             .navigationDestination(for: Message.self, destination: { message in
                 if let user = message.user {
                     ChatView(user: user)
                 }
             })
+            
             .navigationDestination(for: Route.self, destination: { route in
                 switch route {
                 case .profile(let user):
